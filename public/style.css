@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #2f8f3a; font-family: system-ui, sans-serif; }
+canvas { display: block; width: 100vw; height: 100vh; cursor: crosshair; }
+.overlay { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, .35); padding: 16px; }
+.panel { background: #fff; border-radius: 14px; padding: 28px; width: 100%; max-width: 420px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,.3); }
+h1 { margin: 0 0 16px; font-size: 44px; color: #2f8f3a; letter-spacing: -1px; }
+h1 span { color: #3a8fd9; font-size: 24px; margin-left: 4px; }
+input { width: 100%; padding: 12px; font-size: 18px; border: 2px solid #ccc; border-radius: 8px; margin-bottom: 10px; }
+button { width: 100%; padding: 12px; font-size: 20px; font-weight: 700; color: #fff; background: #41b04e; border: 0; border-radius: 8px; cursor: pointer; }
+button:hover { background: #369a41; }
+.help { text-align: left; font-size: 13px; color: #555; padding-left: 18px; margin: 16px 0 0; line-height: 1.6; }
+.red { color: #d33; }
+#death { background: #fde8e8; color: #a33; padding: 10px; border-radius: 8px; margin: 0 0 12px; }
+#toast { position: fixed; top: 18%; left: 50%; transform: translateX(-50%); color: #fff; font-size: 30px; font-weight: 800; text-shadow: 0 2px 6px rgba(0,0,0,.6); pointer-events: none; }
+.hidden { display: none !important; }

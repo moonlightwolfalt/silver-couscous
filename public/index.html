@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mope Clone</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div id="menu" class="overlay">
+    <div class="panel">
+      <h1>mope<span>clone</span></h1>
+      <p id="death" class="hidden"></p>
+      <input id="name" maxlength="16" placeholder="Nickname" autocomplete="off">
+      <button id="play">Play</button>
+      <ul class="help">
+        <li><b>Mouse</b> to move, <b>click / space</b> to boost (uses water)</li>
+        <li>Eat food to earn XP and evolve into bigger animals</li>
+        <li>Eat animals of a lower tier. Animals with a <b class="red">red outline</b> can eat you</li>
+        <li>Drink from lakes to keep your water bar full, or you'll die of thirst</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="toast" class="hidden"></div>
+
+  <script src="config.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>

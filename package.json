@@ -1,0 +1,22 @@
+{
+  "name": "mope-clone",
+  "version": "1.0.0",
+  "description": "An original mope.io-style multiplayer evolution game",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonlightwolfalt/silver-couscous.git"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/moonlightwolfalt/silver-couscous/issues"
+  },
+  "homepage": "https://github.com/moonlightwolfalt/silver-couscous#readme",
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
